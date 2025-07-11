@@ -1,0 +1,15 @@
+numpy==2.3.1
+psutil==7.0.0
+plotly==6.2.0
+ujson==5.10.0
+pandas==2.3.1
+PyMySQL==1.1.1
+orjson==3.10.15
+requests==2.32.4
+streamlit==1.46.1
+setuptools==78.1.1
+SQLAlchemy==2.0.41
+python-dotenv==1.0.1
+cryptography==45.0.5
+python-binance==1.0.29
+streamlit-extras==0.7.5

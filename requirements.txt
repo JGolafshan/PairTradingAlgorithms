@@ -15,3 +15,4 @@ cryptography==45.0.5
 python-binance==1.0.29
 backtrader==1.9.78.123
 streamlit-extras==0.7.5
+backtrader-binance==2.0.5

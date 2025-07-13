@@ -35,6 +35,8 @@ PROJECT_LOCATION = SCRIPT_DIR.parents[2]
 raw_save_location = get_config_var("SAVE_LOCATION", default="DEFAULT")
 LOGGING_LEVEL = get_config_var("LOGGING_LEVEL", default="INFO")
 DELIMITER_GLOBAL = get_config_var("DELIMITER_GLOBAL", default=",")
+PAPER_TRADE = config.getboolean("application_settings", "PAPER_TRADE")
+
 
 if raw_save_location.strip().upper() == "DEFAULT":
     SAVE_LOCATION = PROJECT_LOCATION / "data_repository"
@@ -50,8 +52,10 @@ EMAIL_ADDRESS = get_config_var("EMAIL_ADDRESS")
 EMAIL_TO_ADDRESS = get_config_var("EMAIL_TO_ADDRESS")
 EMAIL_SECRET = get_config_var("EMAIL_SECRET")
 
-BINANCE_API_KEY = get_config_var("BINANCE_API_KEY")
-BINANCE_SECRET_KEY = get_config_var("BINANCE_SECRET_KEY")
+LIVE_BINANCE_API_KEY = get_config_var("BINANCE_LIVE_API_KEY")
+LIVE_BINANCE_API_SECRET = get_config_var("BINANCE_LIVE_API_SECRET")
 
+PAPER_BINANCE_API_KEY = get_config_var("BINANCE_PAPER_API_KEY")
+PAPER_BINANCE_API_SECRET = get_config_var("BINANCE_PAPER_API_SECRET")
 
 DATABASE_URI = get_config_var("DATABASE_URI")

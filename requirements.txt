@@ -9,7 +9,9 @@ requests==2.32.4
 streamlit==1.46.1
 setuptools==78.1.1
 SQLAlchemy==2.0.41
+statsmodels==0.14.5
 python-dotenv==1.0.1
 cryptography==45.0.5
 python-binance==1.0.29
+backtrader==1.9.78.123
 streamlit-extras==0.7.5

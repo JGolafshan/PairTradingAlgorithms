@@ -36,3 +36,8 @@ class StatusType(Enum):
 class PositionType(Enum):
     OPEN = "OPEN"
     CLOSED = "CLOSED"
+
+
+class TradingType(Enum):
+    LIVE = "Live Trading"
+    PAPER = "Paper Trading"

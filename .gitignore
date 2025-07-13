@@ -1,0 +1,11 @@
+/.env
+/shelf/
+/workspace.xml
+/.gitignore
+/misc.xml
+/modules.xml
+/PairTradingAlgorithms.iml
+/inspectionProfiles/profiles_settings.xml
+/inspectionProfiles/Project_Default.xml
+/vcs.xml
+/.venv
